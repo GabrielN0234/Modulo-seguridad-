@@ -1,0 +1,13 @@
+serverUrl:port/api/{controllername}/{param}
+
+ejemplo solisitudes Get
+
+	localhost:3308/api/Usuario   
+	=>  retorna todos los usuarios
+
+
+	localhost:3308/api/Usuario/{nombre},{apellido},{contraseña}      
+	=>  retorna el usuario correspondiente
+
+los datos se ingresan atravez de solicitudes Post desde c#
+
